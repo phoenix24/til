@@ -1,6 +1,6 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Hello World!
 theme: "PaperMod"
 
 enableInlineShortcodes: true
@@ -14,7 +14,7 @@ mainsections: ["posts", "papermod"]
 
 minify:
   disableXML: true
-  # minifyOutput: true
+  minifyOutput: true
 
 pagination:
   disableAliases: false
@@ -35,10 +35,10 @@ languages:
           weight: 5
         - name: Search
           url: search/
-          weight: 10
+          weight: 5
         - name: Tags
           url: tags/
-          weight: 10
+          weight: 5
         - name: WiKi
           url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
@@ -96,8 +96,11 @@ params:
 
   socialIcons:
     - name: github
-      title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
+      title: Github
+      url: "https://github.com/phoenix24"
+    - name: LinkedIn
+      title: LinkedIn
+      url: "https://linkedin.com/in/sharmachaitanya"
     - name: Discord
       title: Join discord community
       url: "https://discord.gg/ahpmTvhVmp"
